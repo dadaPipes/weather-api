@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="weather-card">
+    <h4 class="weather-card__location"></h5>
+    <p class="weather-card__condition-text"></p>
+    <img class="weather-card__condition-icon" src="" alt="">
+    <p class="weather-card__temp"></p>
+  </div>
+  <form class="weather-form">
+    <label for="location">Location:</label> <!-- set autofocus in css ? -->
+    <input type="text" id="location" name="location" required>
+    <button type="submit">Get Weather</button>
+  </form>
+</body>
+</html>
